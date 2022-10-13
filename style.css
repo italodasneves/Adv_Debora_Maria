@@ -1,0 +1,99 @@
+.background-image{
+    background-attachment: fixed;
+    background-image: url(justicebackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    min-width: 100vh;
+}
+
+.caixa {
+    width: 100%;
+    position: fixed;
+    display: block;
+    background-color: #4c4134;
+    margin:0;
+}
+
+.titulo-principal {
+    font-size: 3rem;
+    color: #ECE4D7;
+    padding: 2rem 3.5rem 0;
+    text-shadow: 5px 5px 5px #000000 ;
+    margin-right: 0;
+}
+.titulo-principal + p { /*selecting the first <p> after the class*/
+    color: #ECE4D7;
+    padding: 0 3.5rem 2rem;
+    text-shadow: 3px 3px 3px #000000 ;
+}
+
+nav {
+    position: absolute;
+    top: 3em;
+    right: 150px;
+
+}
+
+
+nav li {
+    display: inline;
+    margin-inline: 0.5em;
+    font-size: 1.5rem;
+}
+
+nav a {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ECE4D7;
+    text-shadow: 3px 3px 3px #000000 ;
+}
+
+a:hover {
+    color: rgb(240, 136, 32);
+    transition: 500ms;
+    
+}
+
+.central-title {
+    font-size: 3em;
+    font-weight: bold;
+    vertical-align: baseline;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5em 1em 2em 1em;
+    text-shadow: 3px 3px 10px #000000 ;
+}
+
+.descricao {
+    margin: 0 10em;
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.descricao h2 {
+    font-size: 2em;
+    color: #c47922e6;
+    padding: 0.5em;
+}
+
+.descricao p {
+    font-size: em;
+    color: #c47922e6;
+    padding: 0.5em;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer {
+    width: 670px;
+    margin: 0 auto;
+    padding: 200px 150px;
+}
