@@ -1,0 +1,213 @@
+/* I'll try to explain all my code */
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Background image configuration */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.background-image{
+    background-attachment: fixed;
+    background-image: url(/assets/img/justicebackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    min-width: 100vh;
+}
+
+/* header container */
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+}
+/* header container > media*/
+.header__media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:3em;
+    padding: 0.3em 4em 0 0;
+    background-color: #494B44;
+}
+
+.header__media--1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4em;
+    color: #fff;
+}
+#tel {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.header__media--2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Header container */
+.header__box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #282926;
+    padding: 1em 10em;
+}
+
+.header__box--main-tittle {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__box--main-tittle > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #D2C2B1;
+    text-shadow: 5px 5px 5px #000000 ;
+}
+
+.header__box--main-tittle > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D2C2B1;
+    text-shadow: 3px 3px 3px #000000 ;
+}
+
+/* ---------------- Header Nav style ------------- */
+
+nav {
+    display: flex;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+nav li {
+    margin-inline: 0.5em;
+    font-size: 1.5rem;
+}
+
+nav a {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #D2C2B1;
+    text-shadow: 3px 3px 3px #000000 ;
+}
+
+a:hover {
+    color: #fff;
+    transition: 500ms;
+}
+
+/* -------------------- Main ---------------------- */
+
+.main__box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__box--tittle {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6em 1em;
+    text-shadow: 3px 3px 10px #000000;
+}
+
+/* --------------------------------------- */
+
+.main__box--description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EBECEA;
+    padding: 9em 2em;
+    margin-top: 8em;
+}
+
+.main__box--description > img {
+    width:20em;
+    height: 20em;
+    border-radius: 40px;
+}
+
+.main__box--description div {
+    border: 2px double #494B44;
+    border-radius: 10px;
+    padding: 3em;
+    margin: 2em;
+}
+
+.main__box--description h2 {
+    font-size: 2em;
+    color: #161715;
+    padding: 1em
+}
+
+.main__box--description  p {
+    font-size: em;
+    color: #161715;
+    padding: 1em 0em;
+}
+/* ----------------------------------- */
+
+.main__box--about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #858B7E;
+    padding: 10em 2em;
+}
+.main__box--about h2 {
+    display: flex;
+    font-size: 2em;
+}
+
+.main__box--about ul {
+    display: flex;
+    padding: 5em auto;
+}
+
+.main__box--about li {
+    margin: 2em;
+    border: 3px solid #494B44;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ----------- footer -------------- */
+footer {
+    display: flex;
+    width: 670px;
+    margin: 0 auto;
+    padding: 200px 150px;
+}
